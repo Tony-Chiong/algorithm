@@ -1,10 +1,10 @@
-#python的排序详解
+# python的排序详解
 
 排序，在编程中经常遇到的算法，我也在几篇文章中介绍了一些关于排序的算法。有的高级语言内置了一些排序函数。本文讲述Python在这方面的工作。供使用python的程序员们参考，也让没有使用python的朋友了解python。领略一番“生命有限，请用Python”的含义。
 
-##内置函数sorted()/list.sort()的使用
+## 内置函数sorted()/list.sort()的使用
 
-###简单应用
+### 简单应用
 
 python对list有一个内置函数：sorted(),专门用于排序。举例：
 
@@ -37,7 +37,7 @@ python对list有一个内置函数：sorted(),专门用于排序。举例：
 
 sorted之后，上述对dictinoary中，将key值取出并排序，返回list类型的排序结果。
 
-###按照指定关键词排序
+### 按照指定关键词排序
 
 在list.sort()和sorted中，都可以根据指定的key值排序。例如：
 
@@ -121,7 +121,7 @@ list.sort()的例子：
     >>> sorted(name_mark_age, key=itemgetter(2),reverse=True)
     [('WANGWU', 'A', 16), ('zhaoliu', 'B', 16), ('zhangsan', 'A', 15), ('LISI', 'B', 14)]
 
-##sorted的算法
+## sorted的算法
 
 python中的sorted算法，网上有人撰文，说比较低级。其实不然，通过阅读官方文档，发现python中的sorted排序，真的是高大上，用的Timsort算法。什么是Timsort，请看 wiki的解释：http://en.wikipedia.org/wiki/Timsort，另外，国内有一个文档，适当翻译：http://blog.csdn.net/yangzhongblog/article/details/8184707，这里截取一个不同排序算法比较的图示，就明白sorted的威力了。
 
