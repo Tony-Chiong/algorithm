@@ -123,7 +123,7 @@ list.sort()的例子：
 
 ## sorted的算法
 
-python中的sorted算法，网上有人撰文，说比较低级。其实不然，通过阅读官方文档，发现python中的sorted排序，真的是高大上，用的Timsort算法。什么是Timsort，请看 wiki的解释：http://en.wikipedia.org/wiki/Timsort，另外，国内有一个文档，适当翻译：http://blog.csdn.net/yangzhongblog/article/details/8184707，这里截取一个不同排序算法比较的图示，就明白sorted的威力了。
+python中的sorted算法，网上有人撰文，说比较低级。其实不然，通过阅读官方文档，发现python中的sorted排序，真的是高大上，用的Timsort算法。什么是Timsort，请看 wiki的解释：http://en.wikipedia.org/wiki/Timsort，另外，国内有一个文档，适当翻译：http://blog.csdn.net/yangzhongblog/article/details/8184707 ，这里截取一个不同排序算法比较的图示，就明白sorted的威力了。
 
 从时间复杂度来看，Timsort是威武的。
 
