@@ -20,7 +20,7 @@ python对list有一个内置函数：sorted(),专门用于排序。举例：
     >>> a               #注意这里，经过list.sort()之后，原有
     [1, 2, 3, 5, 6, 9]  #a的顺序已经发生变化，与上述不同之处。
 
-**sorted和list.sort()的区别:**list.sort()只能对list类型进行排序。如下：
+**sorted和list.sort()的区别:** list.sort()只能对list类型进行排序。如下：
 
     >>> b_dict={1:'e',3:'m',9:'a',5:'e'}
     >>> b_dict.sort()
@@ -111,7 +111,7 @@ list.sort()的例子：
     >>> sorted(student_objects, key=attrgetter('grade', 'age'))
     [('john', 'A', 15), ('dave', 'B', 10), ('jane', 'B', 12)]
 
-**总结：**sorted的能力超强，不仅实现排序，还能按照指定关键词排序。
+**总结：** sorted的能力超强，不仅实现排序，还能按照指定关键词排序。
 
 以上例子都是升序，如果，增加reverse=True。例如：
 
